@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE665B",
+    "navigationBarTitleText": "计算器",
+    "backgroundColorTop": "blue",
+    "navigationBarTextStyle":"white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

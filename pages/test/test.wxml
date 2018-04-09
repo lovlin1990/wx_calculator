@@ -1,0 +1,52 @@
+<!--test.wxml-->
+<view class="home">
+  <view class="section resultBox">
+    <view class="section resultTop">
+      <text class="">{{resultTop}}</text>
+    </view>
+    <view class="section resultBottom">
+      <text class="">{{result}}</text>
+    </view>
+  </view>
+  <view class="section buttonBox">
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item c-green" data-hi="AC" bindtap="clearClick">AC</view>
+        <view class="flex-item c-green" data-flag="<" bindtap="numClick">←</view>
+        <view class="flex-item c-green" data-flag="-/+" bindtap="numClick">-/+</view>
+        <view class="flex-item c-yellow" data-flag="/" bindtap="numClick">/</view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item" data-flag="7" bindtap="numClick">7</view>
+        <view class="flex-item" data-flag="8" bindtap="numClick">8</view>
+        <view class="flex-item" data-flag="9" bindtap="numClick">9</view>
+        <view class="flex-item c-yellow" data-flag="*" bindtap="numClick">*</view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item" data-flag="4" bindtap="numClick">4</view>
+        <view class="flex-item" data-flag="5" bindtap="numClick">5</view>
+        <view class="flex-item" data-flag="6" bindtap="numClick">6</view>
+        <view class="flex-item c-yellow" data-flag="-" bindtap="numClick">-</view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item" data-flag="1" bindtap="numClick">1</view>
+        <view class="flex-item" data-flag="2" bindtap="numClick">2</view>
+        <view class="flex-item" data-flag="3" bindtap="numClick">3</view>
+        <view class="flex-item c-yellow" data-flag="+" bindtap="numClick">+</view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item zero-item" data-flag="0" bindtap="numClick">0</view>
+        <view class="flex-item" data-flag="." bindtap="numClick">.</view>
+        <view class="flex-item c-yellow" data-flag="=" bindtap="numClick">=</view>
+      </view>
+    </view>
+  </view>
+</view>

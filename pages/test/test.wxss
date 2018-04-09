@@ -1,0 +1,56 @@
+/* pages/test/test.wxss */
+.home {
+  height:100vh;
+  background: #3F3F3F;
+}
+.resultBox {
+  height:25vh;
+  background: #3F3F3F;
+  text-align: right;
+  color:#fff;
+  font-size: 30px;
+}
+.resultTop,.resultBottom {
+  height: 10vh;
+  line-height: 10vh;
+  padding-right: 10px;
+}
+.resultTop {
+  border-bottom: 1px dashed #ccc;
+}
+.buttonBox {
+  height:75vh;
+  background: #3F3F3F;
+}
+.buttonBox .flex-wrp{
+  display: flex;
+}
+.flex-wrp {
+  flex-direction: row;
+  justify-content: space-evenly;
+  /*margin-top:10px;*/
+  margin-bottom:10px;
+}
+.flex-item {
+  width:20vw;
+  height:20vw;
+  color:#fff;
+  text-align: center;
+  line-height:20vw;
+  border-radius: 50%;
+  font-size: 30px;
+  background: #5A9AFA;
+}
+.flex-item:active{
+  background: #636363;
+}
+.zero-item {
+  width:42.5vw;
+  border-radius: 40px;
+}
+.c-green {
+  background: #3FD09B;
+}
+.c-yellow {
+  background: #FE665B;
+}
